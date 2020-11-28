@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "مدونة كوخ",
-  siteUrl: "https://ko5.netlify.app/",
+  siteUrl: "https://ko5blog.net/",
   icon: {
     favicon: "./src/icon.png",
   },
@@ -63,12 +63,12 @@ module.exports = {
         feedOptions: {
           title: "مدونة كوخ",
           feed_url: "https://ko5.netlify.app/rss.xml",
-          site_url: "https://ko5.netlify.app/",
+          site_url: "https://ko5blog.net/",
         },
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.description,
-          url: "https://ko5.netlify.app/blog/" + node.slug,
+          url: "https://ko5blog.net/blog/" + node.slug,
         }),
         output: {
           dir: "./static",
@@ -100,8 +100,8 @@ module.exports = {
 {
   use: 'gridsome-plugin-robots-txt',
   options: {
-    host: 'https://ko5.netlify.app',
-    sitemap: 'https://ko5.netlify.app/sitemap.xml',
+    host: 'https://ko5blog.net/',
+    sitemap: 'https://ko5blog.net/sitemap.xml',
     policy: [
       {
         userAgent: "Googlebot",
