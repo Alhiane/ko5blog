@@ -160,7 +160,11 @@ head.meta.push({
     name: "MobileOptimized",
     content: "width",
   });
-
+  
+  head.meta.push({
+    name: "clckd",
+    content: "e255774363b4b0ebd98f5b25e887eacf",
+  });  
 
 head.link.push({
     rel: 'canonical',
