@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "مدونة كوخ",
+  siteName: "KO5blog",
   siteUrl: "https://ko5blog.net/",
   icon: {
     favicon: "./src/icon.png",
