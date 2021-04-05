@@ -81,8 +81,8 @@ module.exports = {
       options: {
         contentTypes: ["Post"],
         feedOptions: {
-          title: "مدونة كوخ",
-          description: "مدونة كوخ التقنية",
+          title: "ko5Blog",
+          description: "مدونة Ko5Blog التقنية",
         },
         rss: {
           enabled: true,
