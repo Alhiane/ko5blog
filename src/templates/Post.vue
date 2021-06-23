@@ -36,11 +36,7 @@
 
                 <g-link :to="$page.post.author.github" class="__link_soc">
                   <font-awesome-icon :icon="['fab', 'github']" />
-                </g-link>
-                
-                <g-link :to="$static.author.site" class="__link_soc">
-                    <font-awesome-icon :icon="['fab', 'wordpress-simple']" />
-                  </g-link>
+                </g-link>                               
               </span>
             </div>
           </div>
