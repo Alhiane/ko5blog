@@ -7,6 +7,7 @@ category : بيانات
 created: 2020-07-27
 tags : البيانات , هيكلة , تحسين , ترتيب , داتا, Data Structures
 hotest: 0
+status: 1
 ---
 ## ماهي البيانات ؟
 
