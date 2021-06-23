@@ -7,6 +7,7 @@ category : إطار عمل
 created: 2020-09-09
 tags : laravel 8 , لارافيل 8 , إطار , Jetstream
 hotest: 1
+status: 1
 ---
 تم إصدار Laravel 8 الآن ويتضمن العديد من الميزات الجديدة بما في ذلك Laravel Jetstream , models directory, model factory classes, migration squashing, rate-limiting improvements, time testing helpers, ومكونات الشفرة الديناميكية ، والعديد من الميزات الأخرى.
 
