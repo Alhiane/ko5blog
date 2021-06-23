@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article v-if="record.status == 1">
     <g-link :to="record.path" class="thumb__link">
       <g-image :src="record.image" class="thumb" />
     </g-link>
