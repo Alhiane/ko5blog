@@ -7,6 +7,7 @@ category : GraphQl
 created: 2020-08-09
 tags : api , graphql , facebook , rest , query , Apollo
 hotest: 1
+status: 1
 ---
 #  [ماهية لغة الإستعلام GraphQl](#ماهية-لغة-الإستعلام-graphql)
 
