@@ -13,8 +13,7 @@
           v-for="post in $page.posts.edges"
           :key="post.node.id"
           :record="post.node"
-          :hotestActive="0"
-          v-if="post.status == 1"
+          :hotestActive="0"          
         />
       </div>
 
