@@ -49,10 +49,7 @@ article {
   .thumb__link {
     text-align: center;
     flex: 1;
-    height: 141px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px dashed #00bcd4;
+    height: 153px;
 
     @media #{$maxMobille} {
       height: 100%;
