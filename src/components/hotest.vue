@@ -88,9 +88,9 @@ $maxMobille: "(max-width :767px)";
       width: 100%;
 
       height: 153px;
-      border-radius: 50%;
+      
       overflow: hidden;
-      border: 3px dashed #ff9800;
+      
 
       @media #{$maxMobille} {
         height: 100%;
