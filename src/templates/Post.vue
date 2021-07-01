@@ -237,10 +237,10 @@ $maxMobille: "(max-width :767px)";
     align-items: center;
 
     background: var(--hd-bg);
-    padding: 0 50px;
+    padding: 0 10px;
 
     @media #{$maxMobille} {
-      padding: 30px;
+      padding: 10px;
       flex-direction: column-reverse;
     }
 
@@ -408,7 +408,7 @@ $maxMobille: "(max-width :767px)";
   }
 }
 .content {
-  padding: 0 100px;
+  padding: 0 10px;
 
   @media #{$maxMobille} {
     padding: 0 0px;
