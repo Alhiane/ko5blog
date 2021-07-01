@@ -1,9 +1,5 @@
 <template>
-  <div class="hotest">
-    <div class="heading">
-      <h3 class="hot">الأكثر شيوعا</h3>
-    </div>
-
+  <div class="hotest">    
     <div class="items">
       <article
         v-for="post in $static.posts.edges"
@@ -79,7 +75,7 @@ $maxMobille: "(max-width :767px)";
   article {
     flex: 0 0 45%;
     margin-top: 70px;
-    padding: 0 20px;
+    padding: 0 5px;
     display: flex;
 
     .thumbnail {
