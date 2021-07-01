@@ -8,7 +8,7 @@
         <div class="wrap">
           <strong>
             <g-link class="brand__link" to="/">
-              <img src="../KO5LOGO.png" alt="" srcset="" />
+              <img src="../KO5NEWLOGO.png" alt="" srcset="" />
             </g-link>
             <!-- <slot name="span" /> -->
           </strong>
