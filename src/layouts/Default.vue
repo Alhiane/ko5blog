@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <span v-if="overlay" class="overlay">
-      <img src="../logo.png" alt="ko5blog" srcset="" />
+      <img src="https://www.graphicsprings.com/filestorage/stencils/a1a3e0281dda80ac394b17180c00f5d3.png?width=500&height=500" alt="ko5blog" srcset="" />
     </span>
     <header class="header">
       <div class="container">
