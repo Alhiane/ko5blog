@@ -1,14 +1,14 @@
 <template>
   <div class="layout">
     <span v-if="overlay" class="overlay">
-      <img src="https://www.graphicsprings.com/filestorage/stencils/a1a3e0281dda80ac394b17180c00f5d3.png?width=500&height=500" alt="ko5blog" srcset="" />
+      <img src="../KO5LOGO.png" alt="ko5blog" srcset="" />
     </span>
     <header class="header">
       <div class="container">
         <div class="wrap">
           <strong>
             <g-link class="brand__link" to="/">
-              <img src="../logo.png" alt="" srcset="" />
+              <img src="../KO5LOGO.png" alt="" srcset="" />
             </g-link>
             <!-- <slot name="span" /> -->
           </strong>
