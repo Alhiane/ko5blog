@@ -169,6 +169,7 @@ export default {
     }
 
     console.log(arr);
+    consoe.log(this.$page.post.image)
   },
   metaInfo() {
     return {
