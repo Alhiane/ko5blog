@@ -168,14 +168,14 @@ export default {
       arr += "," + tagss[index].title;
     }
 
-    console.log(arr);
-    consoe.log(this.$page.post.image)
+    console.log(arr);    
   },
   metaInfo() {
     return {
       script: [{ src: "https://platform.twitter.com/widgets.js", body: true }],
       title: this.$page.post.title,
       tags: this.$page.post.tags,
+      consoe.log(this.$page.post.image),
       meta: [
         {
           name: "description",
