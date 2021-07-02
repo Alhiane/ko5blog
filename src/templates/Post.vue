@@ -195,12 +195,12 @@ export default {
         },
         {
           property: "og:image",
-          content: this.$page.post.image,
+          content: this.$page.post.image.src,
         },
         // Some Twitter Cards Tags
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.post.title },
-        { name: "twitter:image", content: this.$page.post.image },
+        { name: "twitter:image", content: this.$page.post.image.src },
         { name: "twitter:description", content: this.$page.post.excerpt },
       ],
       //Some ld+json tags
