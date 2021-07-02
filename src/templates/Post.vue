@@ -164,18 +164,18 @@ export default {
   mounted() {
     let arr = [];
     let tagss = this.$page.post.tags;
+    let post = this.$page.post;
     for (let index = 0; index < tagss.length; index++) {
       arr += "," + tagss[index].title;
     }
 
-    console.log(arr);    
+    console.log(post);    
   },
   metaInfo() {
     return {
       script: [{ src: "https://platform.twitter.com/widgets.js", body: true }],
       title: this.$page.post.title,
-      tags: this.$page.post.tags,
-      console.log(this.$page.post.image),
+      tags: this.$page.post.tags,      
       meta: [
         {
           name: "description",
