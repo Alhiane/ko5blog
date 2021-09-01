@@ -103,13 +103,7 @@ export default {
       overlay: true,
     };
   },
-  beforeMount() {
-  var elTag = document.createElement('script');
-elTag.setAttribute('data-ad-client','ca-pub-4071676546371011');
-elTag.setAttribute('async','');
-elTag.setAttribute('src','https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-document.head.append(elTag);
-  },
+ 
   mounted() {
     this.themeLoad();
     this.overlay = false;     
