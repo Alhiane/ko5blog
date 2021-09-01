@@ -103,7 +103,7 @@ export default {
       overlay: true,
     };
   },
-  created() {
+  beforeMount() {
   var elTag = document.createElement('script');
 elTag.setAttribute('data-ad-client','ca-pub-4071676546371011');
 elTag.setAttribute('async','');
