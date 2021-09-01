@@ -171,6 +171,15 @@ head.link.push({
     href: 'https://ko5.netlify.app/'
   })
   
+  head.script.push(
+	{
+		type: 'text/javascript',
+    dataAdClient : 'ca-pub-4071676546371011,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        async: true
+	}
+	)
+  
 
 
 }
