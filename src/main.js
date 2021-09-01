@@ -170,6 +170,8 @@ head.link.push({
     rel: 'canonical',
     href: 'https://ko5.netlify.app/'
   })
+  
+  document.head.innerHTML = document.head.innerHTML + '<script data-ad-client="ca-pub-4071676546371011" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>';
 
 
 }
