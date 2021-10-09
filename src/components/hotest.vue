@@ -4,8 +4,9 @@
       <article
         v-for="post in $static.posts.edges"
         :key="post.node.id"
-        v-if="post.node.hotest == 1"
+         
       >
+      <!-- v-if="post.node.hotest == 1" -->
         <div class="thumbnail">
           <g-link :to="post.node.path" class="thumb__link">
             <g-image :src="post.node.image" class="thumb" />
