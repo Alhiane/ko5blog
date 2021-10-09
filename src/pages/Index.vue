@@ -2,7 +2,7 @@
   <Layout>    
     <!-- hotest -->
     <hotest class="hotest" />
-    <!-- POSTS GRID -->
+    <!-- POSTS GRID 
     <div class="posts" id="posts">
       <div class="heading">
         <h3 class="last">آخر التدوينات</h3>
@@ -22,7 +22,7 @@
         :info="$page.posts.pageInfo"
         linkClass="pager__link"
       />
-    </div>
+    </div> -->
   </Layout>
 </template>
 <page-query>
