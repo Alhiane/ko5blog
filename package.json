@@ -1,36 +1,32 @@
 {
-  "name": "ko5Blog",
+  "name": "nuxt-markdown-blog-starter",
+  "version": "1.0.0",
+  "author": "marinaaisa <marina@marinaaisa.com>",
   "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/plugin-sitemap": "^0.4.0",
-    "@gridsome/remark-prismjs": "^0.3.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.5.0",
-    "flexsearch": "^0.6.32",
-    "github-markdown-css": "^4.0.0",
-    "gridsome": "^0.7.0",
-    "gridsome-plugin-disqus": "^1.0.3",
-    "gridsome-plugin-feed": "^1.0.2",
-    "gridsome-plugin-flexsearch": "^0.1.19",
-    "gridsome-plugin-robots-txt": "^1.0.2",
-    "gridsome-plugin-rss": "^1.2.0",
-    "nprogress": "^0.2.0",
-    "vue-disqus": "^3.0.5",
-    "vue-slick-carousel": "^1.0.6"
+    "@nuxtjs/style-resources": "^1.0.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-prism": "^2.0.3",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.11.0",
+    "nuxt-i18n": "^6.4.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "vue-lazyload": "^1.3.3"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2"
+    "frontmatter-markdown-loader": "^3.1.0",
+    "node-sass": "^4.13.0",
+    "responsive-loader": "^1.2.0",
+    "sass-loader": "^8.0.0",
+    "sharp": "^0.23.4"
   }
 }

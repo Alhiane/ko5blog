@@ -1,8 +1,14 @@
-*.log
-.cache
-.DS_Store
-src/.temp
+# dependencies
 node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
 dist
-.env
-.env.*
+
+.DS_Store
+.idea
