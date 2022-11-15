@@ -6,7 +6,7 @@
       <NuxtLink to="/" class="no-underline">
         <figure class="site-logo">
           <!-- <h1></h1> -->
-          <img src="../public/ko5blog.png" alt="" srcset="" class="w-14">
+          <img src="/ko5blog.png" alt="" srcset="" class="w-14">
         </figure>
       </NuxtLink>
 
