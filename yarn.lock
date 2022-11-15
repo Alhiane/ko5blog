@@ -6432,6 +6432,11 @@
   dependencies:
     "bundle-runner" "^0.0.1"
 
+"vue-gtag-next@^1.14.0":
+  "integrity" "sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw=="
+  "resolved" "https://registry.npmjs.org/vue-gtag-next/-/vue-gtag-next-1.14.0.tgz"
+  "version" "1.14.0"
+
 "vue-router@^4.0.16":
   "integrity" "sha512-JcO7cb8QJLBWE+DfxGUL3xUDOae/8nhM1KVdnudadTAORbuxIC/xAydC5Zr/VLHUDQi1ppuTF5/rjBGzgzrJNA=="
   "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.0.16.tgz"
@@ -6439,7 +6444,7 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-"vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>= 3", "vue@>=3", "vue@3.2.45":
+"vue@^3.0.0-rc.11", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>= 3", "vue@>=3", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"

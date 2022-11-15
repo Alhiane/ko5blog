@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: 'utf-8',
-      viewport: 'width=500, initial-scale=1', 
+      viewport: 'width=500, initial-scale=1',
       title: 'Ko5Blog',
       meta: [
         // <meta name="description" content="My amazing site">
@@ -19,7 +19,8 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   target: 'static',
   plugins: [
-    '~/plugins/gtm'
+    '~/plugins/gtm',
+    '~/plugins/vue-gtag.client.js',
   ],
   gtm: {
     id: process.env.GTM_ID || 'G-NWPTHZCQDH',
@@ -35,6 +36,9 @@ export default defineNuxtConfig({
       id: 'G-NWPTHZCQDH&runtime'
     }
   },
+  googleAnalytics: {
+    id: 'G-NWPTHZCQDH'
+  },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
@@ -45,7 +49,7 @@ export default defineNuxtConfig({
         dark: 'github-dark',
       },
       preload: [
-        'python','graphql','php','javascript','json','cpp','java','c'
+        'python', 'graphql', 'php', 'javascript', 'json', 'cpp', 'java', 'c'
       ]
     },
     markdown: {

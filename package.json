@@ -12,7 +12,8 @@
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@tailwindcss/typography": "^0.5.2",
     "nuxt": "^3.0.0-rc.4",
-    "sitemap": "^7.1.1"
+    "sitemap": "^7.1.1",
+    "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
     "@nuxtjs/gtm": "^2.4.0"
