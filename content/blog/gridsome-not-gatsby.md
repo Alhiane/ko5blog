@@ -1,13 +1,12 @@
 ---
 title : لماذا إخترت Gridsome وليس Gatsby ؟
-image : ./images/gridsome.png
-excerpt : بناء المواقع بواسطة مولد المواقع الساكنة Gatsby.js و Gridsome.js
+img : img/gridsome.png
+description : بناء المواقع بواسطة مولد المواقع الساكنة Gatsby.js و Gridsome.js
 author : 1
-category : البرمجة
+category : [البرمجة]
 created: 2020-07-27
-tags : gridsome,gatsby,JAMStack,برمجة,بناء موقع, مواقع ساكنة
+tags : [gridsome,gatsby,JAMStack,برمجة]
 hotest: 1
-status: 1
 ---
 ## مقدمة إلى مفهوم المواقع الساكنة :
 فعليا مفهوم المواقع الساكنة قد تكون تعاملت معه في بادئ تعلمك لتصميم واجهات المواقع بواسطة ** HTML - CSS - JAVASCRIPT  ** , والموقع يكون ساكن جميع التعديلات والإضافات تتم من خلال الكود ولاوجود لمحور ثالث يمدنا ب البيانات .

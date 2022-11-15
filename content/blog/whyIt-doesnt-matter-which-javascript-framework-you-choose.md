@@ -1,14 +1,16 @@
 ---
 title : لماذا لايهم أي Framework جافاسكريبت تختار ؟
-image : ./images/why-it-doesnt-matter-which-javascript-framework-you-choose.png
+img : img/why-it-doesnt-matter-which-javascript-framework-you-choose.png
 excerpt : في مسيرتك البرمجية لابد وأن تكون في محط سؤال لماذا إخترت إطار فلان وليس غيره .
 author : 1
 category : إطار عمل
 created: 2020-08-03
-tags : جافاسكريبت, إطار,react ,vuejs , angular
+tags : [ جافاسكريبت,react ,vuejs , angular]
 hotest: 0
 status: 1
 ---
+## تقديم :
+
 > خلال مسيرتك البرمجية قد تسأل مرة على الأقل عن لماذا إخترت العمل بإطار معين بدل الآخر كإختيارك مثلا Vue , Angular , React , Svelte .
 
 >وإجابتك غالبا ماتكون أن الإطار سهل في بداية التعلم , أو انه متوافق مع تقنية أستعملها سابقا , وهنا قد يرميك الأخر بالتحيز فقط , أي أنك لم تكن مقتنعا به لولا أنه كان متوافقا مع تلك التقنية السابقة .

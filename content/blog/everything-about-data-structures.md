@@ -1,13 +1,12 @@
 ---
 title : شرح Data Structures ودورها في ترتيب البيانات
-image : ./images/Data Structure.png
-excerpt : في مجال هندسة البرمجيات جملة Data Structure تعني بنية أو هيكل البيانات والتي تتيح لك ترتيب وتخزين البيانات
+img : img/Data Structure.png
+description : في مجال هندسة البرمجيات جملة Data Structure تعني بنية أو هيكل البيانات والتي تتيح لك ترتيب وتخزين البيانات
 author : 1
-category : بيانات
+category : [بيانات]
 created: 2020-07-27
-tags : البيانات , هيكلة , تحسين , ترتيب , داتا, Data Structures
-hotest: 0
-status: 1
+tags : [ البيانات , هيكلة, Data Structures]
+hotest: 1
 ---
 ## ماهي البيانات ؟
 
@@ -35,21 +34,17 @@ status: 1
 
 > مثال عملي بلغة Javascript
 
-``` javascript
-
+```javascript
     var myInteger = 5 ; // integer type
     typeOf(myInteger) ; // number 
     console.log(myInteger); // output = 5
-
-
 ```
 
 -  Bool
 
 وهي قيمت من قيميتن [true,false] أو [0,1] , ستم إستخدامهم في الدوال الشرطية وهنا مثال بال Javascript أيضا :
 
-``` javascript
-
+```javascript
     var name = '';
 
     if(name == ''){ // true
@@ -57,16 +52,13 @@ status: 1
     } else { // false mean name = 'value..'
         console.log("Valid name");
     }   
-
-
 ```
 
 -  Float
 
 هو نوع العدد العشري الذي يحتوي على فاصلة عشرية ونأخد مثال بلغة بايثون 
 
-``` python 
-
+```python 
     five_units_number = 16355
 
     p1 = 1635.5 * (10 ** 1)
@@ -80,7 +72,6 @@ status: 1
     print(int(p3)) # 1635
     print(int(p4)) # 1635
     print(int(p5)) # 1635
-
 ```
 
 -  Character
@@ -111,14 +102,12 @@ status: 1
 
 مثال عملي : Javascript 
 
-``` javascript
-
+```javascript
 const arrA = ["Ali", "Hassan"]; // array with names
 const arrB = [21, 15]; // array with num 'ages'
 
 console.log(arrA[1]); // Hassan
 console.log(arrB[0]); // 21
-
 ```
 
 - ** Stacks **
@@ -126,8 +115,7 @@ console.log(arrB[0]); // 21
  في ال Stack البيانات تدخل وتخرج من مكان واحد ودخول البيانات يسمى Push وخروج البيانات يسمى Pop وهناك Peek لمعرفة أعلى عنصر في ال Stack وإدخال العناصر وإزالتها بهذا الترتيب يسمى LIFO بمعنى Last In First Out بمعنى من دخل أخيرا يخرج أولا وفيما يلي مثال بلغة Python لعرض الفكرة.
 
  
- ``` python
-
+ ```python
     stack_example = []
 
     stack_example.append('Ali')
@@ -141,15 +129,13 @@ console.log(arrB[0]); // 21
     print(stack_example.pop()) # Ali
 
     print(stack_example) # [] // Empty
-
  ```
 
 - ** Queue **
 
 نفس فكرة عمل ال Stack ولكن هناك مكانين يخرج منهم البيانات وتقوم بإضافة البيانات بواسطة enqueue() وإزالة البيانات بواسطة dequeue() والترتيب الخاص به يعمل بنظام FIFO
 
-``` python
-
+```python
     queue_exemple = []
 
     queue_exemple.append('Ali')
@@ -163,7 +149,6 @@ console.log(arrB[0]); // 21
     print(queue_exemple.pop(0)) # Aligo
 
     print(queue_exemple) # [] // Empty
-
 ```
 
 - ** Linked List **
@@ -208,7 +193,7 @@ hash table من أسرع هياكل البيانات ويجب أستخدامها
 - [مدونة كوخ على تويتر](https://twitter.com/Ko5Blog)
 - [أو ودعمنا على بايبال للحصول على دومين خاص شكرا .](https://paypal.me/ALAHCEN?locale.x=en_US)
 
-### مصادر المقالة :
+## مصادر المقالة :
 
 - [ويكيبيديا](https://en.wikipedia.org/wiki/List_of_data_structures)
 - [أكاديمية الزيرو](https://elzero.org/everything-about-data-structure/)
