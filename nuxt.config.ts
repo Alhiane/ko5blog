@@ -6,6 +6,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   pageTransition: { name: 'page', mode: 'out-in' },
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  target: 'static',
   plugins: [
     '~/plugins/gtm'
   ],
