@@ -4,6 +4,17 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=500, initial-scale=1', 
+      title: 'Ko5Blog',
+      meta: [
+        // <meta name="description" content="My amazing site">
+        { name: 'description', content: 'مدونة كوخ نافذتك التقنية نحو عالم البرمجة , شرح وتعلم.' }
+      ],
+    }
+  },
   pageTransition: { name: 'page', mode: 'out-in' },
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   target: 'static',
