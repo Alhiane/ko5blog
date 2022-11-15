@@ -74,6 +74,8 @@ h6 {
 
 .page-heading {
   @apply p-12 bg-slate-50;
+  background-color: #00562d;
+  color: #fff;
 }
 
 .page-heading>.wrapper {
