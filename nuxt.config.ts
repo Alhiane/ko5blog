@@ -11,7 +11,9 @@ export default defineNuxtConfig({
       title: 'Ko5Blog',
       meta: [
         // <meta name="description" content="My amazing site">
-        { name: 'description', content: 'مدونة كوخ نافذتك التقنية نحو عالم البرمجة , شرح وتعلم.' }
+        { name: 'description', content: 'مدونة كوخ نافذتك التقنية نحو عالم البرمجة , شرح وتعلم.' },
+        // <meta name="google-site-verification" content="Iuob2LH9R5OKE9TnKVnX1N6ofR3ugUZLnXAcn-EYfGc" />
+        {name:"google-site-verification", content:"Iuob2LH9R5OKE9TnKVnX1N6ofR3ugUZLnXAcn-EYfGc" }
       ],
     }
   },
