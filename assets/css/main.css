@@ -1,6 +1,8 @@
 /* ./assets/css/main.css */
 
 @import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +15,8 @@
 
 html {
   scroll-behavior: smooth;
-  direction: rtl
+  direction: rtl;
+  font-family: 'Noto Sans Arabic', sans-serif;
 }
 
 body {
@@ -33,6 +36,8 @@ h4,
 h5,
 h6 {
   @apply font-header;
+  font-family: 'Readex Pro', sans-serif;
+  margin-bottom: 12px !important;
 }
 
 
